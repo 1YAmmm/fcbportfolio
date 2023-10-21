@@ -1,0 +1,36 @@
+/*
+Syntax for CSS
+selector{
+	
+	property:value;
+}
+*/
+h1{
+	font-family: "Roboto",sans-serif;
+/*change ng font sa wb*/
+}
+p{
+	font-family: "Montserrat",sans-serif;
+}
+#profile{
+	height: 150px;
+	width: 150px; 
+	border-radius: 50%;
+
+}
+body{
+	background-color: #000003;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23000003' cx='50' cy='0' r='50'/%3E%3Cg fill='%230e0f16' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23151922' cx='50' cy='100' r='50'/%3E%3Cg fill='%23192230' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b2c3e' cx='50' cy='200' r='50'/%3E%3Cg fill='%231b364c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317415a' cx='50' cy='300' r='50'/%3E%3Cg fill='%230e4d67' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23005975' cx='50' cy='400' r='50'/%3E%3Cg fill='%23006581' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300728d' cx='50' cy='500' r='50'/%3E%3Cg fill='%23007e98' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23008ba2' cx='50' cy='600' r='50'/%3E%3Cg fill='%230098aa' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300a6b1' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300b3b6' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c0ba' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300cebd' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300dbbe' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300e8be' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317F5BD' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
+/*body=background of the web*/
+
+}
+#landing{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
